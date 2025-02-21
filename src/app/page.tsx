@@ -45,7 +45,7 @@ export default function Home() {
       setNearestWords([]);
     } else {
       const distances = words.map(word => {
-        let validWords: string[] = word.split("/");
+        const validWords: string[] = word.split("/");
         const minDistance = Math.min(...validWords.map(vWord => levenshteinDistance(inputValue, inputValue.length < vWord.length ? vWord.substring(0, inputValue.length) : vWord)));
         return {
           words: validWords,
