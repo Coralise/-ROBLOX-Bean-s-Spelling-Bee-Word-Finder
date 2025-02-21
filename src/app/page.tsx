@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { FaLink } from "react-icons/fa";
 
 export default function Home() {
   const [words, setWords] = useState<string[]>([]);
-  const [nearestWords, setNearestWords] = useState<string[]>([]);
+  const [nearestWords, setNearestWords] = useState<string[][]>([]);
 
   useEffect(() => {
     fetch("words.json")
@@ -47,13 +48,13 @@ export default function Home() {
         let validWords: string[] = word.split("/");
         const minDistance = Math.min(...validWords.map(vWord => levenshteinDistance(inputValue, inputValue.length < vWord.length ? vWord.substring(0, inputValue.length) : vWord)));
         return {
-          word: validWords.join(" • "),
+          words: validWords,
           levenshteinDistance: minDistance,
           containsWord: word.toLowerCase().includes(inputValue.toLowerCase())
         };
       });
       distances.sort((a, b) => a.containsWord ? -1 : b.containsWord ? 1 : a.levenshteinDistance - b.levenshteinDistance);
-      setNearestWords(distances.slice(0, 10).map(d => d.word));
+      setNearestWords(distances.slice(0, 10).map(d => d.words));
     }
     
   };
@@ -61,7 +62,10 @@ export default function Home() {
   return (
     <div className="min-h-screen w-screen flex justify-center p-4">
       <div className="h-fit flex flex-col w-full md:w-3/4 mt-24">
-        <span className="text-4xl flex justify-center">Bean's Spelling Bee Word Finder</span>
+        <a target="_blank" href="https://www.roblox.com/games/17590362521/Spelling-Bee" className="text-4xl flex items-center justify-center gap-4 group">
+          <span>[ROBLOX] Spelling Bee Word Finder</span>
+          <FaLink className="size-4 text-zinc-700 group-hover:text-blue-400 transition-all duration-300 group-hover:animate-pulse" />
+        </a>
         <span className="text-zinc-700 mt-16">Last updated: February 22, 2025</span>
         <div className="form-control w-full">
           <input
@@ -76,8 +80,20 @@ export default function Home() {
         <div className="w-full mt-4">
           <ul>
             {
-              nearestWords.map((word, index) => (
-                <li key={word}>{word}</li>
+              nearestWords.map((words, index) => (
+                <div className="select-none hover:bg-zinc-900 transition-all duration-300" key={index + ""}>
+                  <li className="p-2 text-lg">
+                    {
+                      words.map((word, index) => (
+                      <span key={word}>
+                        {word}
+                        {index < words.length - 1 && <span className="text-base text-zinc-500"> or </span>}
+                      </span>
+                      ))
+                    }
+                  </li>
+                  <div className="border-t-solid border-t-gray-700 border-t-[.5px]" />
+                </div>
               ))
             }
           </ul>
