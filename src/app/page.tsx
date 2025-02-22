@@ -87,7 +87,7 @@ export default function Home() {
           <span>[ROBLOX] Spelling Bee Word Finder</span>
           <FaLink className="size-4 text-zinc-700 group-hover:text-blue-400 transition-all duration-300 group-hover:animate-pulse" />
         </a>
-        <span className="text-zinc-700 mt-16">Last updated: February 22, 2025</span>
+        <span className="text-zinc-700 mt-16">Last updated: February 22, 2025 • 540 words</span>
         <div className="form-control w-full">
           <input
             className="input input-alt"
