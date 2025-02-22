@@ -38,6 +38,24 @@ export default function Home() {
     return matrix[a.length][b.length];
   };
 
+  const getMinDistance = (inputValue: string, word: string): number => {
+
+    inputValue = inputValue.toLowerCase();
+    word = word.toLowerCase();
+
+    if (inputValue.length >= word.length) return levenshteinDistance(inputValue, word);
+
+    const diff: number = word.length - inputValue.length;
+    const distances: number[] = [];
+
+    for (let i = 0;i < diff+1;i++) {
+      console.log(inputValue + " -> " + word.substring(i, inputValue.length+i));
+      distances.push(levenshteinDistance(inputValue, word.substring(i, inputValue.length+i)));
+    }
+
+    return Math.min(...distances);
+  } 
+
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const inputValue = event.target.value.trim();
     
@@ -46,7 +64,7 @@ export default function Home() {
     } else {
       const distances = words.map(word => {
         const validWords: string[] = word.split("/");
-        const minDistance = Math.min(...validWords.map(vWord => levenshteinDistance(inputValue, inputValue.length < vWord.length ? vWord.substring(0, inputValue.length) : vWord)));
+        const minDistance = Math.min(...validWords.map(vWord => getMinDistance(inputValue, vWord)));
         return {
           words: validWords,
           levenshteinDistance: minDistance,
@@ -54,7 +72,7 @@ export default function Home() {
         };
       });
       distances.sort((a, b) => a.containsWord ? -1 : b.containsWord ? 1 : a.levenshteinDistance - b.levenshteinDistance);
-      setNearestWords(distances.slice(0, 10).map(d => d.words));
+      setNearestWords(distances.slice(0, 10).map(d => d.words.map((word: string) => d.levenshteinDistance + " - " + word)));
     }
     
   };
