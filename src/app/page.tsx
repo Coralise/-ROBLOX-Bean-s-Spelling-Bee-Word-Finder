@@ -70,7 +70,11 @@ export default function Home() {
           containsWord: word.toLowerCase().includes(inputValue.toLowerCase())
         };
       });
-      distances.sort((a, b) => a.containsWord ? -1 : b.containsWord ? 1 : a.levenshteinDistance - b.levenshteinDistance);
+      distances.sort((a, b) => {
+        if (a.containsWord) return -1;
+        if (b.containsWord) return 1;
+        return a.levenshteinDistance - b.levenshteinDistance;
+      });
       setNearestWords(distances.slice(0, 10).map(d => d.words));
     }
     
