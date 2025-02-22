@@ -43,12 +43,12 @@ export default function Home() {
     inputValue = inputValue.toLowerCase();
     word = word.toLowerCase();
 
-    if (inputValue.length+3 >= word.length) return levenshteinDistance(inputValue, word);
+    if (inputValue.length >= word.length) return levenshteinDistance(inputValue, word);
 
-    const diff: number = word.length - inputValue.length+3;
+    const diff: number = word.length - inputValue.length;
     const distances: number[] = [];
 
-    for (let i = 0;i < diff+4;i++) {
+    for (let i = 0;i < diff+1;i++) {
       distances.push(levenshteinDistance(inputValue, word.substring(i, inputValue.length+i)));
     }
 
@@ -75,7 +75,7 @@ export default function Home() {
         if (b.containsWord) return 1;
         return a.levenshteinDistance - b.levenshteinDistance;
       });
-      setNearestWords(distances.slice(0, 10).map(d => d.words));
+      setNearestWords(distances.slice(0, 10).map(d => d.words.map((word: string) => d.levenshteinDistance + " - " + word)));
     }
     
   };
