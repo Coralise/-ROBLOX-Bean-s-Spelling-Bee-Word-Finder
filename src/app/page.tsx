@@ -75,7 +75,7 @@ export default function Home() {
         if (b.containsWord) return 1;
         return a.levenshteinDistance - b.levenshteinDistance;
       });
-      setNearestWords(distances.slice(0, 10).map(d => d.words.map((word: string) => d.levenshteinDistance + " - " + word)));
+      setNearestWords(distances.slice(0, 10).map(d => d.words));
     }
     
   };
