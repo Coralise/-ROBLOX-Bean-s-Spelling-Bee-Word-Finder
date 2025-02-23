@@ -1,30 +1,7 @@
 import { NextRequest } from "next/server";
 import fs from 'fs';
 import path from 'path';
-
-const levenshteinDistance = (a: string, b: string): number => {
-    const matrix = Array.from({ length: a.length + 1 }, () => Array(b.length + 1).fill(0));
-
-    for (let i = 0; i <= a.length; i++) {
-        for (let j = 0; j <= b.length; j++) {
-            if (i === 0) {
-                matrix[i][j] = j;
-            } else if (j === 0) {
-                matrix[i][j] = i;
-            } else if (a[i - 1] === b[j - 1]) {
-                matrix[i][j] = matrix[i - 1][j - 1];
-            } else {
-                matrix[i][j] = Math.min(
-                    matrix[i - 1][j] + 1,
-                    matrix[i][j - 1] + 1,
-                    matrix[i - 1][j - 1] + 1
-                );
-            }
-        }
-    }
-
-    return matrix[a.length][b.length];
-};
+const dldist = require('weighted-damerau-levenshtein');
 
 const getMinDistance = (inputValue: string, word: string): number => {
 
@@ -32,13 +9,13 @@ const getMinDistance = (inputValue: string, word: string): number => {
     word = word.toLowerCase();
 
     if (word.includes(inputValue)) return 0;
-    if (inputValue.length+1 >= word.length) return levenshteinDistance(inputValue, word);
+    if (inputValue.length+1 >= word.length) return dldist(inputValue, word);
 
     const diff: number = word.length - inputValue.length+1;
     let minDistance = Number.MAX_VALUE;
 
     for (let i = 0;i < diff+2;i++) {
-        const distance = levenshteinDistance(inputValue, word.substring(i, inputValue.length+i));
+        const distance = dldist(inputValue, word.substring(i, inputValue.length+i));
         minDistance = Math.min(distance, minDistance);
     }
 
