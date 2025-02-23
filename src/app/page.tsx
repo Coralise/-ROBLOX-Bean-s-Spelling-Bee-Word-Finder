@@ -37,7 +37,7 @@ export default function Home() {
     <div className="min-h-screen w-screen flex justify-center p-4">
       <div className="h-fit flex flex-col w-full md:w-3/4 mt-24">
         <a target="_blank" href="https://www.roblox.com/games/17590362521/Spelling-Bee" className="self-center w-fit text-4xl flex items-center justify-center gap-4 group">
-          <span>[ROBLOX] Spelling Bee Word Finder</span>
+          <span>[ROBLOX] Spelling Bee Spell Checker</span>
           <FaLink className="size-4 text-zinc-700 group-hover:text-blue-400 transition-all duration-300 group-hover:animate-pulse" />
         </a>
         <span className="text-zinc-700 mt-16">Last updated: February 22, 2025 • 540 words</span>
