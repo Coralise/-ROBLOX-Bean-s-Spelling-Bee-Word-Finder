@@ -705,6 +705,10 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Enchantment",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Beneficiary",
             "Difficulties": ["Normal"]
         },
@@ -754,6 +758,10 @@
         },
         {
             "Word": "Surrogate",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Technological",
             "Difficulties": ["Normal"]
         },
         {
@@ -882,6 +890,10 @@
         },
         {
             "Word": "Forthcoming",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Betray",
             "Difficulties": ["Normal"]
         },
         {
@@ -1145,6 +1157,10 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Gobbledygook",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Remarkable",
             "Difficulties": ["Normal"]
         },
@@ -1158,6 +1174,10 @@
         },
         {
             "Word": "Sapphire",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Sabotage",
             "Difficulties": ["Normal"]
         },
         {
@@ -1345,6 +1365,10 @@
             "Difficulties": ["Hard"]
         },
         {
+            "Word": "Counterintuitive",
+            "Difficulties": ["Hard"]
+        },
+        {
             "Word": "Anachronistic",
             "Difficulties": ["Hard", "Extreme"]
         },
@@ -1370,7 +1394,7 @@
         },
         {
             "Word": "Autothaumaturgist",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulties": ["Hard", "Extreme+"]
         },
         {
             "Word": "Borborygmus",
@@ -1378,11 +1402,11 @@
         },
         {
             "Word": "Bourgeoisie",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulties": ["Hard", "Extreme+"]
         },
         {
             "Word": "Bourgeoisification",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulties": ["Hard", "Extreme+"]
         },
         {
             "Word": "Brucellosis",
@@ -1522,7 +1546,7 @@
         },
         {
             "Word": "Hippopotomonstrosesquippedaliophobia",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulties": ["Hard", "Extreme+"]
         },
         {
             "Word": "Homogeneous",
@@ -1562,7 +1586,7 @@
         },
         {
             "Word": "Institutionalization",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Isometropia",
@@ -1594,6 +1618,10 @@
         },
         {
             "Word": "Liaison",
+            "Difficulties": ["Hard"]
+        },
+        {
+            "Word": "Lexicography",
             "Difficulties": ["Hard"]
         },
         {
@@ -1734,7 +1762,7 @@
         },
         {
             "Word": "Quindecasyllabic",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulties": ["Hard", "Extreme+"]
         },
         {
             "Word": "Quixotry",
@@ -1742,7 +1770,7 @@
         },
         {
             "Word": "Quoddamodotative",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulties": ["Hard", "Extreme+"]
         },
         {
             "Word": "Rambunctious",
@@ -1866,15 +1894,15 @@
         },
         {
             "Word": "Adrenocorticotrophin",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Anthropomorphisation",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Arthroereisis",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Baccalaureate",
@@ -1894,31 +1922,31 @@
         },
         {
             "Word": "Convolvulaceous",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Ethnomethodology",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Floccinaucinihilipilification",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Gastroenterologist",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Glyceraldehyde",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Honorificabilitudinity",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Hypoparathyroidism",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Jurisprudence",
@@ -1930,23 +1958,23 @@
         },
         {
             "Word": "Oligonucleotide",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Otorhinolaryngological",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Parallelogrammatic",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Pneumoencephalography",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Polyphiloprogenitive",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Portmanteau",
@@ -1958,19 +1986,19 @@
         },
         {
             "Word": "Pseudopseudohypoparathyroidism",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Psychoneuroendocrinological",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Psychoneuroimmunology",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Psychophysicotherapeutics",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Quasquicentennial",
@@ -1978,7 +2006,7 @@
         },
         {
             "Word": "Radiometeorograph",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Subcompartmentalization",
@@ -1986,7 +2014,7 @@
         },
         {
             "Word": "Supercalifragilisticexpialidocious",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         },
         {
             "Word": "Verisimilitude",
@@ -1994,7 +2022,7 @@
         },
         {
             "Word": "Xylotypographic",
-            "Difficulties": ["Extreme"]
+            "Difficulties": ["Extreme+"]
         }
     ]
 }
