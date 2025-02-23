@@ -1,7 +1,7 @@
 "use client";
 
 import { Geist_Mono } from "next/font/google";
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 import { FaLink } from "react-icons/fa";
 
 const geistMono = Geist_Mono({variable: "--font-geist-mono",subsets: ["latin"],});
