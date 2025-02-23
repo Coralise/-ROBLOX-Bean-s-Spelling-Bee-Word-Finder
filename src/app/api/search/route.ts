@@ -1,7 +1,8 @@
 import { NextRequest } from "next/server";
 import fs from 'fs';
 import path from 'path';
-const dldist = require('weighted-damerau-levenshtein');
+// @ts-expect-error: package does not support typescript
+import dldist from 'weighted-damerau-levenshtein';
 
 const getMinDistance = (inputValue: string, word: string): number => {
 
