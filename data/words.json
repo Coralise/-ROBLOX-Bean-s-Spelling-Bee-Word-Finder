@@ -853,6 +853,10 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Excalibur",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Expenditure",
             "Difficulties": ["Normal"]
         },
@@ -934,6 +938,10 @@
         },
         {
             "Word": "Hexagonal",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Methodology",
             "Difficulties": ["Normal"]
         },
         {
@@ -1050,6 +1058,10 @@
         },
         {
             "Word": "Parallel",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Walnut",
             "Difficulties": ["Normal"]
         },
         {
@@ -1193,11 +1205,19 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Kangaroo",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Seldom",
             "Difficulties": ["Normal"]
         },
         {
             "Word": "Syllable",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Akin",
             "Difficulties": ["Normal"]
         },
         {
@@ -1246,6 +1266,10 @@
         },
         {
             "Word": "Symmetrical",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Ricochet",
             "Difficulties": ["Normal"]
         },
         {
