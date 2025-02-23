@@ -43,12 +43,12 @@ export default function Home() {
     inputValue = inputValue.toLowerCase();
     word = word.toLowerCase();
 
-    if (inputValue.length >= word.length) return levenshteinDistance(inputValue, word);
+    if (inputValue.length+1 >= word.length) return levenshteinDistance(inputValue, word);
 
-    const diff: number = word.length - inputValue.length;
+    const diff: number = word.length - inputValue.length+1;
     const distances: number[] = [];
 
-    for (let i = 0;i < diff+1;i++) {
+    for (let i = 0;i < diff+2;i++) {
       distances.push(levenshteinDistance(inputValue, word.substring(i, inputValue.length+i)));
     }
 
