@@ -329,6 +329,14 @@
             "Difficulties": ["Easy"]
         },
         {
+            "Word": "Emoji",
+            "Difficulties": ["Easy"]
+        },
+        {
+            "Word": "Kiss",
+            "Difficulties": ["Easy"]
+        },
+        {
             "Word": "Liable",
             "Difficulties": ["Easy", "Normal"]
         },
@@ -393,7 +401,7 @@
             "Difficulties": ["Easy", "Normal"]
         },
         {
-            "Word": "Overdue",
+            "Word": "Overdue/Overdo",
             "Difficulties": ["Easy", "Normal"]
         },
         {
@@ -410,6 +418,14 @@
         },
         {
             "Word": "Pie",
+            "Difficulties": ["Easy"]
+        },
+        {
+            "Word": "Pasta",
+            "Difficulties": ["Easy"]
+        },
+        {
+            "Word": "Flower",
             "Difficulties": ["Easy"]
         },
         {
@@ -454,6 +470,10 @@
         },
         {
             "Word": "Rally",
+            "Difficulties": ["Easy"]
+        },
+        {
+            "Word": "Wind",
             "Difficulties": ["Easy"]
         },
         {
@@ -534,6 +554,10 @@
         },
         {
             "Word": "Suck",
+            "Difficulties": ["Easy"]
+        },
+        {
+            "Word": "Tank",
             "Difficulties": ["Easy"]
         },
         {
@@ -625,11 +649,23 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Window",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Heritage",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Aggrandize",
             "Difficulties": ["Normal", "Hard"]
         },
         {
             "Word": "Agriculture",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Bronchitis",
             "Difficulties": ["Normal"]
         },
         {
@@ -662,6 +698,10 @@
         },
         {
             "Word": "Benevolence",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Beneficiary",
             "Difficulties": ["Normal"]
         },
         {
@@ -701,6 +741,18 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Surrogate",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Center",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Melancholy",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Compunction",
             "Difficulties": ["Normal", "Hard"]
         },
@@ -721,6 +773,10 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Wednesday",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Dilate",
             "Difficulties": ["Normal"]
         },
@@ -733,6 +789,14 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Atmospheric",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Rhythm",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Dolphin",
             "Difficulties": ["Normal"]
         },
@@ -741,7 +805,7 @@
             "Difficulties": ["Normal"]
         },
         {
-            "Word": "Elysian",
+            "Word": "Elysian/Elision",
             "Difficulties": ["Normal", "Hard"]
         },
         {
@@ -773,6 +837,10 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Sniffle",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Exponential",
             "Difficulties": ["Normal"]
         },
@@ -781,7 +849,15 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Cooking",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Flamboyant",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Twenty",
             "Difficulties": ["Normal"]
         },
         {
@@ -793,11 +869,19 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Residential",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Gastronomic",
             "Difficulties": ["Normal"]
         },
         {
             "Word": "Gibberish",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Adolescent",
             "Difficulties": ["Normal"]
         },
         {
@@ -817,6 +901,10 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Hexagonal",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Humanitarian",
             "Difficulties": ["Normal"]
         },
@@ -833,7 +921,15 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Special",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Imprisonment",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Ravenous",
             "Difficulties": ["Normal"]
         },
         {
@@ -846,6 +942,10 @@
         },
         {
             "Word": "Indifference",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Negotiation",
             "Difficulties": ["Normal"]
         },
         {
@@ -882,6 +982,14 @@
         },
         {
             "Word": "Necromancer",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Secret",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Intermission",
             "Difficulties": ["Normal"]
         },
         {
@@ -933,7 +1041,7 @@
             "Difficulties": ["Normal"]
         },
         {
-            "Word": "Pharaoh",
+            "Word": "Pharaoh/Farrow",
             "Difficulties": ["Normal", "Hard"]
         },
         {
@@ -1121,6 +1229,10 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Idiom",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Venerate",
             "Difficulties": ["Normal"]
         },
@@ -1137,11 +1249,19 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Wholeheartedly",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Zephyr",
             "Difficulties": ["Normal", "Hard"]
         },
         {
             "Word": "Zygote",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Bamboo",
             "Difficulties": ["Normal"]
         },
         {
@@ -1261,6 +1381,10 @@
             "Difficulties": ["Hard"]
         },
         {
+            "Word": "Astigmatism",
+            "Difficulties": ["Hard"]
+        },
+        {
             "Word": "Colloquialism",
             "Difficulties": ["Hard"]
         },
@@ -1373,6 +1497,10 @@
             "Difficulties": ["Hard"]
         },
         {
+            "Word": "Clandestine",
+            "Difficulties": ["Hard"]
+        },
+        {
             "Word": "Inchoate",
             "Difficulties": ["Hard", "Extreme"]
         },
@@ -1441,7 +1569,7 @@
             "Difficulties": ["Hard", "Extreme"]
         },
         {
-            "Word": "Minuscule",
+            "Word": "Minuscule/Miniscule",
             "Difficulties": ["Hard"]
         },
         {
@@ -1509,7 +1637,15 @@
             "Difficulties": ["Hard"]
         },
         {
+            "Word": "Cacophony",
+            "Difficulties": ["Hard"]
+        },
+        {
             "Word": "Phenomenon",
+            "Difficulties": ["Hard"]
+        },
+        {
+            "Word": "Nomenclature",
             "Difficulties": ["Hard"]
         },
         {
