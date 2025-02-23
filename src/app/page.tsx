@@ -8,10 +8,17 @@ export default function Home() {
   const [nearestWords, setNearestWords] = useState<string[][]>([]);
 
   useEffect(() => {
-    fetch("words.json")
-      .then((response) => response.json())
-      .then((data) => setWords(data.words))
-      .catch((error) => console.error("Error loading words:", error));
+    const fetchData = async () => {
+      try {
+        const res = await fetch('/api/data'); // Fetch JSON from API route
+        if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
+        const jsonData: { words: string[] } = await res.json();
+        setWords(jsonData.words);
+      } catch (error) {
+        console.error("Fetch error:", error);
+      }
+    };
+    fetchData();
   }, []);
 
   const levenshteinDistance = (a: string, b: string): number => {
@@ -72,7 +79,7 @@ export default function Home() {
         };
       });
       distances.sort((a, b) => a.distance - b.distance);
-      setNearestWords(distances.slice(0, 10).map(d => d.words));
+      setNearestWords(distances.slice(0, 1).map(d => d.words));
     }
     
   };
@@ -80,7 +87,7 @@ export default function Home() {
   return (
     <div className="min-h-screen w-screen flex justify-center p-4">
       <div className="h-fit flex flex-col w-full md:w-3/4 mt-24">
-        <a target="_blank" href="https://www.roblox.com/games/17590362521/Spelling-Bee" className="text-4xl flex items-center justify-center gap-4 group">
+        <a target="_blank" href="https://www.roblox.com/games/17590362521/Spelling-Bee" className="self-center w-fit text-4xl flex items-center justify-center gap-4 group">
           <span>[ROBLOX] Spelling Bee Word Finder</span>
           <FaLink className="size-4 text-zinc-700 group-hover:text-blue-400 transition-all duration-300 group-hover:animate-pulse" />
         </a>
