@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-export async function GET(req: any) {
+export async function GET() {
     try {
         const filePath = path.join(process.cwd(), 'data', 'words.json'); // ✅ Read from root-level "data"
         const jsonData = fs.readFileSync(filePath, 'utf8');

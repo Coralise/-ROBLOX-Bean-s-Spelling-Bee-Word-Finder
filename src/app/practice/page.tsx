@@ -16,11 +16,11 @@ export default function Practice() {
             }
         };
         fetchData();
+        console.log(words);
     }, []);
 
     return (
         <div className="w-screen h-screen p-4 flex items-center justify-center">
-            Test
         </div>
     );
 }
