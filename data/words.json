@@ -941,6 +941,10 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Exaggerate",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Methodology",
             "Difficulties": ["Normal"]
         },
@@ -1170,6 +1174,10 @@
         },
         {
             "Word": "Gobbledygook",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Detrimental",
             "Difficulties": ["Normal"]
         },
         {
@@ -1534,6 +1542,10 @@
         },
         {
             "Word": "Facsimile",
+            "Difficulties": ["Hard"]
+        },
+        {
+            "Word": "Simultaneous",
             "Difficulties": ["Hard"]
         },
         {
