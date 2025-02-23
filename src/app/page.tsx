@@ -52,19 +52,21 @@ export default function Home() {
         </div>
         <div className="w-full mt-4">
           <ul>
-            <div className="select-none hover:bg-zinc-900 transition-all duration-300">
-              <li className="p-2 text-lg">
-                {
-                  nearestWords.map((word, index) => (
-                    <span key={word}>
-                      {word}
-                      {index < nearestWords.length - 1 && <span className="text-base text-zinc-500"> or </span>}
-                    </span>
-                  ))
-                }
-              </li>
-              <div className="border-t-solid border-t-gray-700 border-t-[.5px]" />
-            </div>
+            {nearestWords.length > 0 && (
+              <div className="select-none hover:bg-zinc-900 transition-all duration-300">
+                <li className="p-2 text-lg">
+                  {
+                    nearestWords.map((word, index) => (
+                      <span key={word}>
+                        {word}
+                        {index < nearestWords.length - 1 && <span className="text-base text-zinc-500"> or </span>}
+                      </span>
+                    ))
+                  }
+                </li>
+                <div className="border-t-solid border-t-gray-700 border-t-[.5px]" />
+              </div>
+            )}
           </ul>
         </div>
       </div>
