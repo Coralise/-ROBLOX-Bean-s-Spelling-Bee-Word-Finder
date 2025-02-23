@@ -3,7 +3,7 @@ import path from 'path';
 
 export async function GET() {
     try {
-        const filePath = path.join(process.cwd(), 'data', 'words.json'); // ✅ Read from root-level "data"
+        const filePath = path.join(process.cwd(), 'data', 'words.json');
         const jsonData = fs.readFileSync(filePath, 'utf8');
         const data = JSON.parse(jsonData);
     
