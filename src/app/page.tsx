@@ -6,7 +6,7 @@ import { FaLink } from "react-icons/fa";
 export default function Home() {
   const [nearestWords, setNearestWords] = useState<string[]>([]);
 
-  const search = async (inputValue: string) => {
+  const search = async (inputValue: string): Promise<string[]> => {
     const response = await fetch('/api/search', {
       method: 'POST',
       headers: {
@@ -16,7 +16,7 @@ export default function Home() {
     });
 
     const data = await response.json();
-    setNearestWords(data.words);
+    return data.words;
   };
 
   const handleInputChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -25,7 +25,10 @@ export default function Home() {
     if (inputValue.length == 0) {
       setNearestWords([]);
     } else {
-      await search(inputValue);
+      const words = await search(inputValue);
+      if (event.target.value.trim() === inputValue) {
+        setNearestWords(words);
+      }
     }
     
   };
