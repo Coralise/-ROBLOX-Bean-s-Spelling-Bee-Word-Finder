@@ -329,6 +329,10 @@
             "Difficulties": ["Easy"]
         },
         {
+            "Word": "Zoo",
+            "Difficulties": ["Easy"]
+        },
+        {
             "Word": "Emoji",
             "Difficulties": ["Easy"]
         },
@@ -733,6 +737,10 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Aspiration",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Combustible",
             "Difficulties": ["Normal"]
         },
@@ -850,6 +858,10 @@
         },
         {
             "Word": "Cooking",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Fluorescent",
             "Difficulties": ["Normal"]
         },
         {
@@ -1006,6 +1018,10 @@
         },
         {
             "Word": "Opaque",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Normal",
             "Difficulties": ["Normal"]
         },
         {
