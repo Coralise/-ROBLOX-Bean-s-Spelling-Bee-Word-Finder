@@ -45,7 +45,12 @@ const getMinDistance = (inputValue: string, word: string): number => {
     return minDistance;
 }
 
-const fetchData = async (): Promise<string[] | undefined> => {
+interface WordData {
+    Word: string,
+    Difficulties: string[]
+}
+
+const fetchData = async (): Promise<WordData[] | undefined> => {
     try {
         const filePath = path.join(process.cwd(), 'data', 'words.json');
         const jsonData = fs.readFileSync(filePath, 'utf8');
@@ -60,11 +65,11 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
     const inputValue: string = body.inputValue;
     
-    const words = await fetchData();
-    if (words == undefined) return Response.json({ words: [] });
+    const wordDatas = await fetchData();
+    if (wordDatas == undefined) return Response.json({ words: [] });
 
-    const distances = words.map(word => {
-        const validWords: string[] = word.split("/");
+    const distances = wordDatas.map(wordData => {
+        const validWords: string[] = wordData.Word.split("/");
         const minDistance = Math.min(...validWords.map(vWord => getMinDistance(inputValue, vWord)));
         return {
             words: validWords,

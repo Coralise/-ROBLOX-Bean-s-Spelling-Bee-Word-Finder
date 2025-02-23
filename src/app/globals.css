@@ -81,3 +81,29 @@ body {
 .input-alt:not(:focus):hover + .input-border-alt {
   width: 20%;
 }
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+/* When you change the amount of characters in the h1, you have to change 
+the with: 14ch and  steps(14, end), if there is 14 characters, put 14, 
+if there is 20 put 20 */
+.animation {
+  font: bold 200% Consolas, Monaco, monospace;
+  border-right: .1em solid white;
+  width: 12.20ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 1s steps(12, end),
+             blink-caret .5s step-end infinite alternate;
+  -webkit-animation: typing 1s steps(12, end),
+                     blink-caret .5s step-end infinite alternate;
+}

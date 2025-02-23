@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Spelling Bee Word Finder",
-  description: "[ROBLOX] Bean's Spelling Bee Word Finder",
+  title: "Spelling Bee Helper",
+  description: "[ROBLOX] Bean's Spelling Bee Helper",
 };
 
 export default function RootLayout({
