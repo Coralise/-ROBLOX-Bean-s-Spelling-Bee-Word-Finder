@@ -725,6 +725,10 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Champagne",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Chlorophyll",
             "Difficulties": ["Normal"]
         },
@@ -913,7 +917,15 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Crowd",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Hexagonal",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Notorious",
             "Difficulties": ["Normal"]
         },
         {
@@ -1033,11 +1045,19 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Powder",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Passionate",
             "Difficulties": ["Normal"]
         },
         {
             "Word": "Password",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Embarrassment",
             "Difficulties": ["Normal"]
         },
         {
@@ -1157,6 +1177,10 @@
             "Difficulties": ["Normal"]
         },
         {
+            "Word": "Syllable",
+            "Difficulties": ["Normal"]
+        },
+        {
             "Word": "Sentimental",
             "Difficulties": ["Normal"]
         },
@@ -1234,6 +1258,10 @@
         },
         {
             "Word": "Unintelligible",
+            "Difficulties": ["Normal"]
+        },
+        {
+            "Word": "Consumption",
             "Difficulties": ["Normal"]
         },
         {
