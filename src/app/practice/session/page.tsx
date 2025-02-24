@@ -30,7 +30,7 @@ async function wait(seconds: number) {
     await new Promise(resolve => setTimeout(resolve, seconds * 1000));
 }
 
-export default function Game() {
+function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined }>) {
     const router = useRouter();
     const inputRef = useRef<HTMLInputElement>(null);
     const [word, setWord] = useState<WordData | undefined>();
@@ -40,9 +40,6 @@ export default function Game() {
     const [isCorrect, setIsCorrect] = useState<boolean>();
     const [wpm, setWpm] = useState<number>();
     const [correctWords, setCorrectWords] = useState<CorrectWordData[]>([]);
-    
-    const searchParams = useSearchParams();
-    const difficulty = searchParams.get("difficulty") === "random" ? undefined : searchParams.get("difficulty") ?? undefined;
 
     const calculateWpm = (startTime: number, endTime: number, wordLength: number): number => {
         const time = endTime - startTime;
@@ -77,7 +74,7 @@ export default function Game() {
         sessionStorage.setItem('gameData', JSON.stringify({ correctWords, difficulty }));
         router.push("/practice")
     }
-    
+
     const start = useCallback(async () => {
         setWord(undefined);
         setStartTime(undefined);
@@ -94,7 +91,7 @@ export default function Game() {
         setStartTime(Date.now());
         inputRef.current!.focus();
     }, [difficulty]);
-    
+
     useEffect(() => {
         start();
     }, [start]);
@@ -106,45 +103,58 @@ export default function Game() {
     };
 
     return (
-        <Suspense fallback={<div>Loading...</div>}>
-            <div className={`${geistMono.className} flex flex-col items-center justify-center h-screen w-full select-none`}>
-                <span className={`text-2xl`}>{getStatusMessage()}</span>
+        <div className={`${geistMono.className} flex flex-col items-center justify-center h-screen w-full select-none`}>
+            <span className={`text-2xl`}>{getStatusMessage()}</span>
 
-                <span className={`mt-12 text-2xl ${word ? "opacity-100 transition-opacity duration-300" : "opacity-0"}`}>{word?.Word.split("/")[0] ?? "Placeholder"}</span>
+            <span className={`mt-12 text-2xl ${word ? "opacity-100 transition-opacity duration-300" : "opacity-0"}`}>{word?.Word.split("/")[0] ?? "Placeholder"}</span>
 
-                <div className={`textInputWrapper mt-16`}>
-                    <input
-                        disabled={!canType}
-                        type="text"
-                        ref={inputRef}
-                        className={`textInput text-center py-2 px-4 w-[36ch] box-content text-2xl opacity-1 transition-opacity duration-150`}
-                        value={inputValue}
-                        onChange={handleInputChange}
-                        onKeyDown={handleInputChange} // Add onKeyDown event listener
-                    />
-                </div>
-
-                <span className={`text-2xl mt-4 ${wpm ? "opacity-100 transition-opacity duration-300" : "opacity-0"}`}>{wpm} WPM</span>
-
-                {
-                    correctWords.length > 0 && <div className="mt-32 flex flex-col min-w-[25rem]">
-                        <span className="self-center text-3xl mb-4">Current Statistics</span>
-                        <span>Difficulty: {difficulty ?? "Random"}</span>
-                        <span>Correct Words: {correctWords.length}</span>
-                        <span>Average WPM: {(correctWords.reduce((acc, word) => acc + word.WPM, 0) / correctWords.length).toFixed(2)}</span>
-                        <span>
-                            { 
-                                `Highest WPM: ${correctWords.reduce((prev, current) => (prev.WPM > current.WPM) ? prev : current, correctWords[0]).WPM}`
-                            }
-                        </span>
-                        <span>
-                            { 
-                                `Lowest WPM: ${correctWords.reduce((prev, current) => (prev.WPM < current.WPM) ? prev : current, correctWords[0]).WPM}`
-                            }
-                        </span>
-                    </div>
-                }
+            <div className={`textInputWrapper mt-16`}>
+                <input
+                    disabled={!canType}
+                    type="text"
+                    ref={inputRef}
+                    className={`textInput text-center py-2 px-4 w-[36ch] box-content text-2xl opacity-1 transition-opacity duration-150`}
+                    value={inputValue}
+                    onChange={handleInputChange}
+                    onKeyDown={handleInputChange} // Add onKeyDown event listener
+                />
             </div>
+
+            <span className={`text-2xl mt-4 ${wpm ? "opacity-100 transition-opacity duration-300" : "opacity-0"}`}>{wpm} WPM</span>
+
+            {
+                correctWords.length > 0 && <div className="mt-32 flex flex-col min-w-[25rem]">
+                    <span className="self-center text-3xl mb-4">Current Statistics</span>
+                    <span>Difficulty: {difficulty ?? "Random"}</span>
+                    <span>Correct Words: {correctWords.length}</span>
+                    <span>Average WPM: {(correctWords.reduce((acc, word) => acc + word.WPM, 0) / correctWords.length).toFixed(2)}</span>
+                    <span>
+                        { 
+                            `Highest WPM: ${correctWords.reduce((prev, current) => (prev.WPM > current.WPM) ? prev : current, correctWords[0]).WPM}`
+                        }
+                    </span>
+                    <span>
+                        { 
+                            `Lowest WPM: ${correctWords.reduce((prev, current) => (prev.WPM < current.WPM) ? prev : current, correctWords[0]).WPM}`
+                        }
+                    </span>
+                </div>
+            }
+        </div>
+    );
+}
+
+export default function Game() {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <GameWithSearchParams />
         </Suspense>
     );
+}
+
+function GameWithSearchParams() {
+    const searchParams = useSearchParams();
+    const difficulty = searchParams.get("difficulty") === "random" ? undefined : searchParams.get("difficulty") ?? undefined;
+
+    return <GameComponent difficulty={difficulty} />;
 }
