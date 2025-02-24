@@ -2,7 +2,7 @@
 
 import { Geist_Mono } from "next/font/google";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Suspense, useCallback, useEffect, useRef, useState } from "react";
+import { ReactNode, Suspense, useCallback, useEffect, useRef, useState } from "react";
 import { CorrectWordData, WordData } from "../../../../types/global";
 
 const geistMono = Geist_Mono({variable: "--font-geist-mono",subsets: ["latin"],});
@@ -96,15 +96,15 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
         start();
     }, [start]);
 
-    const getStatusMessage = (): string => {
-        if (isCorrect === undefined) return "Type...";
-        else if (isCorrect) return "Correct!";
-        else return "Incorrect!";
+    const getStatusMessage = (): ReactNode => {
+        if (isCorrect === undefined) return <span className={`text-2xl transition-all duration-500`}>Type...</span>;
+        else if (isCorrect) return <span className={`text-2xl text-green-400 transition-all duration-500`}>Correct!</span>;
+        else return <span className={`text-2xl text-red-500 transition-all duration-500`}>Incorrect!</span>;
     };
 
     return (
         <div className={`${geistMono.className} flex flex-col items-center justify-center h-screen w-full select-none`}>
-            <span className={`text-2xl`}>{getStatusMessage()}</span>
+            {getStatusMessage()}
 
             <span className={`mt-12 text-2xl ${word ? "opacity-100 transition-opacity duration-300" : "opacity-0"}`}>{word?.Word.split("/")[0] ?? "Placeholder"}</span>
 
