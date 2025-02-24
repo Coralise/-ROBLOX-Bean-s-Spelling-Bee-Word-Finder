@@ -2,7 +2,7 @@
 
 import { Geist_Mono } from "next/font/google";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { Suspense, useCallback, useEffect, useRef, useState } from "react";
 import { CorrectWordData, WordData } from "../../../../types/global";
 
 const geistMono = Geist_Mono({variable: "--font-geist-mono",subsets: ["latin"],});
@@ -106,43 +106,45 @@ export default function Game() {
     };
 
     return (
-        <div className={`${geistMono.className} flex flex-col items-center justify-center h-screen w-full select-none`}>
-            <span className={`text-2xl`}>{getStatusMessage()}</span>
+        <Suspense>
+            <div className={`${geistMono.className} flex flex-col items-center justify-center h-screen w-full select-none`}>
+                <span className={`text-2xl`}>{getStatusMessage()}</span>
 
-            <span className={`mt-12 text-2xl ${word ? "opacity-100 transition-opacity duration-300" : "opacity-0"}`}>{word?.Word.split("/")[0] ?? "Placeholder"}</span>
+                <span className={`mt-12 text-2xl ${word ? "opacity-100 transition-opacity duration-300" : "opacity-0"}`}>{word?.Word.split("/")[0] ?? "Placeholder"}</span>
 
-            <div className={`textInputWrapper mt-16`}>
-                <input
-                    disabled={!canType}
-                    type="text"
-                    ref={inputRef}
-                    className={`textInput text-center py-2 px-4 w-[36ch] box-content text-2xl opacity-1 transition-opacity duration-150`}
-                    value={inputValue}
-                    onChange={handleInputChange}
-                    onKeyDown={handleInputChange} // Add onKeyDown event listener
-                />
-            </div>
-
-            <span className={`text-2xl mt-4 ${wpm ? "opacity-100 transition-opacity duration-300" : "opacity-0"}`}>{wpm} WPM</span>
-
-            {
-                correctWords.length > 0 && <div className="mt-32 flex flex-col min-w-[25rem]">
-                    <span className="self-center text-3xl mb-4">Current Statistics</span>
-                    <span>Difficulty: {difficulty ?? "Random"}</span>
-                    <span>Correct Words: {correctWords.length}</span>
-                    <span>Average WPM: {(correctWords.reduce((acc, word) => acc + word.WPM, 0) / correctWords.length).toFixed(2)}</span>
-                    <span>
-                        { 
-                            `Highest WPM: ${correctWords.reduce((prev, current) => (prev.WPM > current.WPM) ? prev : current, correctWords[0]).WPM}`
-                        }
-                    </span>
-                    <span>
-                        { 
-                            `Lowest WPM: ${correctWords.reduce((prev, current) => (prev.WPM < current.WPM) ? prev : current, correctWords[0]).WPM}`
-                        }
-                    </span>
+                <div className={`textInputWrapper mt-16`}>
+                    <input
+                        disabled={!canType}
+                        type="text"
+                        ref={inputRef}
+                        className={`textInput text-center py-2 px-4 w-[36ch] box-content text-2xl opacity-1 transition-opacity duration-150`}
+                        value={inputValue}
+                        onChange={handleInputChange}
+                        onKeyDown={handleInputChange} // Add onKeyDown event listener
+                    />
                 </div>
-            }
-        </div>
+
+                <span className={`text-2xl mt-4 ${wpm ? "opacity-100 transition-opacity duration-300" : "opacity-0"}`}>{wpm} WPM</span>
+
+                {
+                    correctWords.length > 0 && <div className="mt-32 flex flex-col min-w-[25rem]">
+                        <span className="self-center text-3xl mb-4">Current Statistics</span>
+                        <span>Difficulty: {difficulty ?? "Random"}</span>
+                        <span>Correct Words: {correctWords.length}</span>
+                        <span>Average WPM: {(correctWords.reduce((acc, word) => acc + word.WPM, 0) / correctWords.length).toFixed(2)}</span>
+                        <span>
+                            { 
+                                `Highest WPM: ${correctWords.reduce((prev, current) => (prev.WPM > current.WPM) ? prev : current, correctWords[0]).WPM}`
+                            }
+                        </span>
+                        <span>
+                            { 
+                                `Lowest WPM: ${correctWords.reduce((prev, current) => (prev.WPM < current.WPM) ? prev : current, correctWords[0]).WPM}`
+                            }
+                        </span>
+                    </div>
+                }
+            </div>
+        </Suspense>
     );
 }
