@@ -285,7 +285,7 @@
             "Difficulty": "Easy"
         },
         {
-            "Word": "Immobilize",
+            "Word": "Immobilize/Immobilise",
             "Difficulty": "Normal"
         },
         {
@@ -305,7 +305,7 @@
             "Difficulty": "Normal"
         },
         {
-            "Word": "Ionize",
+            "Word": "Ionize/Ionise",
             "Difficulty": "Normal"
         },
         {
@@ -661,7 +661,7 @@
             "Difficulty": "Normal"
         },
         {
-            "Word": "Aggrandize",
+            "Word": "Aggrandize/Aggrandise",
             "Difficulty": "Hard"
         },
         {
@@ -1509,7 +1509,7 @@
             "Difficulty": "Hard"
         },
         {
-            "Word": "Dichotomization",
+            "Word": "Dichotomization/Dichotomisation",
             "Difficulty": "Extreme"
         },
         {
@@ -1913,7 +1913,7 @@
             "Difficulty": "Extreme"
         },
         {
-            "Word": "Compartmentalization",
+            "Word": "Compartmentalization/Compartmentalisation",
             "Difficulty": "Extreme"
         },
         {
@@ -1937,7 +1937,7 @@
             "Difficulty": "Extreme"
         },
         {
-            "Word": "Subcompartmentalization",
+            "Word": "Subcompartmentalization/Subcompartmentalisation",
             "Difficulty": "Extreme"
         },
         {
@@ -1946,119 +1946,119 @@
         },
         {
             "Word": "Autothaumaturgist",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Bourgeoisie",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Bourgeoisification",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
-            "Word": "Hippopotomonstrosesquippedaliophobia",
-            "Difficulty": "Extreme+"
+            "Word": "Hippopotomonstrosesquippedaliophobia/Hippopotomonstrosesquipedaliophobia",
+            "Difficulty": "Impossible"
         },
         {
-            "Word": "Institutionalization",
-            "Difficulty": "Extreme+"
+            "Word": "Institutionalization/Institutionalisation",
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Quindecasyllabic",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Quoddamodotative",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
-            "Word": "Adrenocorticotrophin",
-            "Difficulty": "Extreme+"
+            "Word": "Adrenocorticotrophin/Adrenocorticotropin",
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Anthropomorphisation",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Arthroereisis",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Convolvulaceous",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Ethnomethodology",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Floccinaucinihilipilification",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Gastroenterologist",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Glyceraldehyde",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Honorificabilitudinity",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Hypoparathyroidism",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Oligonucleotide",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Otorhinolaryngological",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Parallelogrammatic",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Pneumoencephalography",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Polyphiloprogenitive",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Pseudopseudohypoparathyroidism",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Psychoneuroendocrinological",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Psychoneuroimmunology",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Psychophysicotherapeutics",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Radiometeorograph",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Supercalifragilisticexpialidocious",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         },
         {
             "Word": "Xylotypographic",
-            "Difficulty": "Extreme+"
+            "Difficulty": "Impossible"
         }
     ]
 }

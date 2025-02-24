@@ -1,10 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-
-interface WordData {
-    Word: string,
-    Difficulty: string
-}
+import { WordData } from '../types/global';
 
 const fetchData = async (): Promise<WordData[] | undefined> => {
     try {
@@ -20,9 +16,11 @@ const fetchData = async (): Promise<WordData[] | undefined> => {
 const processWordData = (wordDatas: WordData[]) => {
     const cleanWordDatas: WordData[] = [];
     const cleanWordsIndex: { [key: string]: number } = {};
+    let longestWordLength = 0;
     
     for (const wordData of wordDatas) {
         const wordParts = wordData.Word.toLowerCase().split("/");
+        longestWordLength = Math.max(longestWordLength, Math.max(...wordParts.map(part => part.length)));
         if (!wordParts.some(part => part in cleanWordsIndex)) {
             cleanWordDatas.push(wordData);
             for (const part of wordParts) {
@@ -35,7 +33,7 @@ const processWordData = (wordDatas: WordData[]) => {
             }
         }
     }
-    console.log(cleanWordsIndex);
+    console.log("Longest Word Length: " + longestWordLength);
 
     return cleanWordDatas;
 }

@@ -1,8 +1,7 @@
 import { NextRequest } from "next/server";
-import fs from 'fs';
-import path from 'path';
 // @ts-expect-error: package does not support typescript
 import dldist from 'weighted-damerau-levenshtein';
+import fetchData from "../../../../../data/fetcher";
 
 const getMinDistance = (inputValue: string, word: string): number => {
 
@@ -23,28 +22,12 @@ const getMinDistance = (inputValue: string, word: string): number => {
     return minDistance;
 }
 
-interface WordData {
-    Word: string,
-    Difficulty: string
-}
-
-const fetchData = async (): Promise<WordData[] | undefined> => {
-    try {
-        const filePath = path.join(process.cwd(), 'data', 'words.json');
-        const jsonData = fs.readFileSync(filePath, 'utf8');
-        const data = JSON.parse(jsonData);
-        return data.words;
-    } catch (error) {
-        console.error("Fetch error:", error);
-    }
-};
-
 export async function POST(req: NextRequest) {
     const body = await req.json();
     const inputValue: string = body.inputValue;
     
     const wordDatas = await fetchData();
-    if (wordDatas == undefined) return Response.json({ words: [] });
+    if (!wordDatas) return Response.json({ words: [] });
 
     const distances = wordDatas.map(wordData => {
         const validWords: string[] = wordData.Word.split("/");
