@@ -51,6 +51,12 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
         return Math.round((wordLength / 4) / timeInMinutes);
     }
 
+    const handleKeyDown = async (e: React.ChangeEvent<HTMLInputElement> & React.KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === 'Enter') new Audio('/sounds/enter.mp3').play();
+        else new Audio('/sounds/type.mp3').play();
+        handleInputChange(e);
+    }
+
     const handleInputChange = async (e: React.ChangeEvent<HTMLInputElement> & React.KeyboardEvent<HTMLInputElement>) => {
         if (e.key === 'Enter') {
             if (e.target.value.length < 3) return;
@@ -59,9 +65,13 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
             setIsCorrect(correct);
             setCanType(false);
             if (correct) {
+                const correctSound = new Audio('/sounds/correct.mp3');
+                correctSound.play();
                 const wpm = calculateWpm(startTime!, Date.now(), e.target.value.length);
                 setWpm(wpm);
                 setCorrectWords(prev => [...prev, { WordData: word!, WPM: wpm }]);
+            } else {
+                new Audio('/sounds/incorrect.mp3').play();
             }
             await wait(2);
             if (correct) {
@@ -123,7 +133,7 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
                     className={`textInput text-center py-2 px-4 w-[36ch] box-content text-2xl opacity-1 transition-opacity duration-150`}
                     value={inputValue}
                     onChange={handleInputChange}
-                    onKeyDown={handleInputChange} // Add onKeyDown event listener
+                    onKeyDown={handleKeyDown} // Add onKeyDown event listener
                 />
             </div>
 
