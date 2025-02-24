@@ -81,7 +81,7 @@ export default function Practice() {
             {setup()}
             {
                 gameData && gameData.correctWords.length > 0 && <div className={`mt-32 flex flex-col min-w-[25rem] ${geistMono.className}`}>
-                    <span className="self-center text-3xl mb-4">Previous Game Statistics</span>
+                    <span className="self-center text-3xl mb-4">Previous Statistics</span>
                     <span>Difficulty: {gameData.difficulty ?? "Random"}</span>
                     <span>Correct Words: {gameData.correctWords.length}</span>
                     <span>Average WPM: {(gameData.correctWords.reduce((acc, word) => acc + word.WPM, 0) / gameData.correctWords.length).toFixed(2)}</span>
