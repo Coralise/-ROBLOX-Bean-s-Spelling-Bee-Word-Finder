@@ -133,7 +133,10 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
                     className={`textInput text-center py-2 px-4 w-[36ch] box-content text-2xl opacity-1 transition-opacity duration-150`}
                     value={inputValue}
                     onChange={handleInputChange}
-                    onKeyDown={handleKeyDown} // Add onKeyDown event listener
+                    onKeyDown={handleKeyDown}
+                    onCopy={(e) => e.preventDefault()}
+                    onCut={(e) => e.preventDefault()}
+                    onPaste={(e) => e.preventDefault()}
                 />
             </div>
 
