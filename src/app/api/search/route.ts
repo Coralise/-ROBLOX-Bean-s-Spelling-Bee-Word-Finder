@@ -25,7 +25,7 @@ const getMinDistance = (inputValue: string, word: string): number => {
 
 interface WordData {
     Word: string,
-    Difficulties: string[]
+    Difficulty: string
 }
 
 const fetchData = async (): Promise<WordData[] | undefined> => {

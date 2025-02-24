@@ -3,7 +3,7 @@ import path from 'path';
 
 interface WordData {
     Word: string,
-    Difficulties: string[]
+    Difficulty: string
 }
 
 const fetchData = async (): Promise<WordData[] | undefined> => {
@@ -19,30 +19,32 @@ const fetchData = async (): Promise<WordData[] | undefined> => {
 
 const processWordData = (wordDatas: WordData[]) => {
     const cleanWordDatas: WordData[] = [];
-    const cleanWordsIndex: string[] = [];
+    const cleanWordsIndex: { [key: string]: number } = {};
     
     for (const wordData of wordDatas) {
-        if (!cleanWordsIndex.includes(wordData.Word.toLowerCase())) {
+        const wordParts = wordData.Word.toLowerCase().split("/");
+        if (!wordParts.some(part => part in cleanWordsIndex)) {
             cleanWordDatas.push(wordData);
-            cleanWordsIndex.push(wordData.Word.toLowerCase());
+            for (const part of wordParts) {
+                cleanWordsIndex[part] = cleanWordDatas.length-1;
+            }
         } else {
-            updateExistingWordData(wordData, cleanWordDatas);
+            const existingIndex = wordParts.map(part => cleanWordsIndex[part]).find(index => index !== undefined);
+            if (existingIndex !== undefined) {
+                updateExistingWordData(wordData, cleanWordDatas, existingIndex);
+            }
         }
     }
+    console.log(cleanWordsIndex);
 
     return cleanWordDatas;
 }
 
-const updateExistingWordData = (wordData: WordData, cleanWordDatas: WordData[]) => {
-    for (const existingWordData of cleanWordDatas) {
-        if (existingWordData.Word != wordData.Word) continue;
-        for (const difficulty of wordData.Difficulties) {
-            if (!existingWordData.Difficulties.includes(difficulty)) {
-                existingWordData.Difficulties.push(difficulty);
-            }
-        }
-        break;
-    }
+const updateExistingWordData = (wordData: WordData, cleanWordDatas: WordData[], index: number) => {
+    const existingWordData = cleanWordDatas[index];
+    existingWordData.Difficulty = wordData.Difficulty;
+    console.log("Updating wordData: " + existingWordData.Word + " : " + existingWordData.Difficulty);
+    cleanWordDatas[index] = existingWordData;
 }
 
 const logCleanWordData = (cleanWordDatas: WordData[]) => {
@@ -51,10 +53,9 @@ const logCleanWordData = (cleanWordDatas: WordData[]) => {
     for (const cleanWordData of cleanWordDatas) {
         content += "{\n";
         content += "    \"Word\": \"" + cleanWordData.Word + "\",\n";
-        content += "    \"Difficulties\": [" + cleanWordData.Difficulties.map((difficulty) => "\"" + difficulty + "\"").join(", ") + "]\n";
+        content += "    \"Difficulty\": " + cleanWordData.Difficulty + "\"\n";
         content += "}" + (cleanWordDatas.indexOf(cleanWordData) == cleanWordDatas.length-1 ? "\n" : ",\n");
     }
-    console.log(content);
 
     fs.writeFileSync("words-cleaner/clean-words.txt", content);
     console.log("File Written successfully.");

@@ -2,2067 +2,2063 @@
     "words": [
         {
             "Word": "Abdomen",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Abolish",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Absence",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Absorb",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Abstract",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Agnostic",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Albeit",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Alliance",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Alphabet",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Anatomical",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Appetite",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Armor",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Ash",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Assumption",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Automatic",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Await",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Bayonet",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Bingo",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Biography",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Bizarre",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Brain",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Breakthrough",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Broccoli",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Burger",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Burial",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Cabin",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Chicken",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Chronic",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Circle",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Clever",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Cliff",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Colonel/Kernel",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Comply",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Concentration",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Congratulate",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Controversial",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Convey",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Cool",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Dairy",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Debris",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Defy",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Diesel",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Derogatory",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Duck",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Echo",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Embassy",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Enact",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Erupt",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Exert",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Exile",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Familiar",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Film",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Filter",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Firefighter",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Forbid",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Formidable",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Frolic",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Furious",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Gallant",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Gazebo",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Gender",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Giant",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Gold",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Greedy",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Grub",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Guideline",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Heresy",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Hotel",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "House",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Human",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Hungry",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Immobilize",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Ink",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Integrity",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Intent",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Intermediate",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Ionize",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Iron",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Irony",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Lactose",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Lather",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Length",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Zoo",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Emoji",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Kiss",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Liable",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Lightning",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Limousine",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Magnificent",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Margin",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Meditate",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Microorganism",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Mix",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Monk",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Neighboring",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Noble/Nobel",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Noob",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Oasis",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Obesity",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Offender",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Optimism",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Overdue/Overdo",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Palatine",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Paradox",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Pear/Pair",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Pie",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Pasta",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Flower",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Pigeon",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Plethora",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Power",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Prank",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Pray/Prey",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Probably",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Proclamation",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Proof",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Quack",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Quill",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Rally",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Wind",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Random",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Refrain",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Refugee",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Reply",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Robust",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Ruby",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Rye/Wry",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Semicircle",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Shake",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Sigh",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Significance",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Size",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Soda",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "State",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Stereotype",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Still",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Strategic",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Stumble",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Subsidy",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Suck",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Tank",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Syntax",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Tangerine",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Telepathy",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Thesis",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Town",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Transaction",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Trauma",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Twist",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Uncomfortable",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Update",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Vague",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Vain/Vein",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Villain",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Voluntary",
-            "Difficulties": ["Easy", "Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Water",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Word",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Workout",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Wrist",
-            "Difficulties": ["Easy"]
+            "Difficulty": "Easy"
         },
         {
             "Word": "Abscond",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Accomplishment",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Accumulation",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Aerodynamic",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Window",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Heritage",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Aggrandize",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Agriculture",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Bronchitis",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Ambiguous",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Anaphylactic",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Anemone",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Articulate",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Asthma",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Attorney",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Bandeau",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Benevolence",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Enchantment",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Beneficiary",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Brusque",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Catalogue",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Caustic",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Charisma",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Champagne",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Chlorophyll",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Coalescence",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Cognitive",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Aspiration",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Combustible",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Commodity",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Surrogate",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Technological",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Center",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Melancholy",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Compunction",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Curious",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Dauntless",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Deleterious",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Deployment",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Wednesday",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Dilate",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Disappointment",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Doctrine",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Atmospheric",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Rhythm",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Dolphin",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Elaborate",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Elysian/Elision",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Encore",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Endeavor",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Epiphany",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Erratic",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Euphoria",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Excellent",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Excalibur",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Expenditure",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Sniffle",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Exponential",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Favorable",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Cooking",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Fluorescent",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Flamboyant",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Twenty",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Flavor/Flavour",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Forthcoming",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Betray",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Residential",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Gastronomic",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Gibberish",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Adolescent",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Glaucomatous",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Gradual",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Heterozygous",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Hornswoggle",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Crowd",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Hexagonal",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Exaggerate",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Methodology",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Notorious",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Humanitarian",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Hypothesis",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Ideological",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Imminent",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Special",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Imprisonment",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Ravenous",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Indefatigable",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Independence",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Indifference",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Negotiation",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Ingenious",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Inhabitant",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Juxtaposition",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Legendary",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Macabre",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Mathematician",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Misconception",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Municipal",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Necromancer",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Secret",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Intermission",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Nonplussed",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Obituary",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Oblivious",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Opaque",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Normal",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Parallel",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Walnut",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Participation",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Powder",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Passionate",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Password",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Embarrassment",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Peppermint",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Periodically",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Personnel",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Pestilence",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Pharaoh/Farrow",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Phlegm",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Photographer",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Pirouette",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Plenipotentiary",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Pomegranate",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Portfolio",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Predecessor",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Predominantly",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Procrastinate",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Pronunciation",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Propaganda",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Pursuit",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Recession",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Recipient",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Reincarnation",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Reliability",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Gobbledygook",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Detrimental",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Remarkable",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Reminiscence",
-            "Difficulties": ["Normal", "Hard"]
-        },
-        {
-            "Word": "Rye",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Sapphire",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Sabotage",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Sashay/Sachet",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Scholarship",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Scrutiny",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Kangaroo",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Seldom",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Syllable",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Akin",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Sentimental",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Separation",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Sequacious",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Shareholder",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Solidarity",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Spokesperson",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Steadfast",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Supposedly",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Surveillance",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Susceptible",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Syllepsis",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Symmetrical",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Ricochet",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Systematic",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Thesaurus",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Translucent",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Transparency",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Transportation",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Tremendous",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Uncharacteristic",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Unintelligible",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Consumption",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Unprecedented",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Validity",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Idiom",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Venerate",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Violation",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Warrior",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Worthwhile",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Wholeheartedly",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Zephyr",
-            "Difficulties": ["Normal", "Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Zygote",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Bamboo",
-            "Difficulties": ["Normal"]
+            "Difficulty": "Normal"
         },
         {
             "Word": "Abacaxi",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Absquatulate",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Accommodate",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Acculturate",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Acquiesce",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Aegis",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Agoraphobic",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Allotransplantation",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Ambidextrous",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Counterintuitive",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Anachronistic",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Antediluvian",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Anthroponosis",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Antidisestablishmentarianism",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Apocryphal",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Asphyxiation",
-            "Difficulties": ["Hard"]
-        },
-        {
-            "Word": "Autothaumaturgist",
-            "Difficulties": ["Hard", "Extreme+"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Borborygmus",
-            "Difficulties": ["Hard", "Extreme"]
-        },
-        {
-            "Word": "Bourgeoisie",
-            "Difficulties": ["Hard", "Extreme+"]
-        },
-        {
-            "Word": "Bourgeoisification",
-            "Difficulties": ["Hard", "Extreme+"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Brucellosis",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Buckminsterfullerene",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Bucolic",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Bureaucracy",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Calamitous",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Calumny",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Martyrdom",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Capoeira",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Capricious",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Captious",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Codicil",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Astigmatism",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Colloquialism",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Commodore",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Consanguine",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Contradistinguish",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Correspondence",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Cyrillic",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Dendrochronology",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Deoxyribonucleic",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Depilatory",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Dichotomization",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Discombobulate",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Dodecahedron",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Eloquent",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Entrepreneur",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Facsimile",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Simultaneous",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Fjord",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Fossiliferous",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Fuchsia",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Gentrification",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Glockenspiel",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Gubernatorial",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Hierarchy",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Hieroglyphics",
-            "Difficulties": ["Hard", "Extreme"]
-        },
-        {
-            "Word": "Hippopotomonstrosesquippedaliophobia",
-            "Difficulties": ["Hard", "Extreme+"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Homogeneous",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Hypermetropia",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Iconoclast",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Incandescent",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Clandestine",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Inchoate",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Incomprehensibility",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Infinitesimal",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Infundibulum",
-            "Difficulties": ["Hard", "Extreme"]
-        },
-        {
-            "Word": "Institutionalization",
-            "Difficulties": ["Extreme+"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Isometropia",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Isthmus",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Kaleidoscope",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Labyrinthine",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Languid",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Legislation",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Lepidopterology",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Liaison",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Lexicography",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Malapropism",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Mellifluous",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Menagerie",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Milieu",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Minuscule/Miniscule",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Monochromatic",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Monosyllabic",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Myopic",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Myriad",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Narcissistic",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Nauseous",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Neuroplasticity",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Nutritious",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Obfuscation",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Onomatopoeia",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Paradigm",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Paraphernalia",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Parliamentary",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Paroxysm",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Perspicacious",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Pessimistic",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Cacophony",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Phenomenon",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Nomenclature",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Pneumatic",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Polemic",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Polydactyly",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Prognostication",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Psychological",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Puerile",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Pulchritudinous",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Pusillanimous",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Pygmy",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Querimony",
-            "Difficulties": ["Hard"]
-        },
-        {
-            "Word": "Quindecasyllabic",
-            "Difficulties": ["Hard", "Extreme+"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Quixotry",
-            "Difficulties": ["Hard", "Extreme"]
-        },
-        {
-            "Word": "Quoddamodotative",
-            "Difficulties": ["Hard", "Extreme+"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Rambunctious",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Rehabilitation",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Rendezvous",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Rhinorrhagia",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Sagacious",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Sarcophagus",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Sequoia",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Serendipity",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Sesquipedalian",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Silhouette",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Soliloquy",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Sovereignty",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Subpoena",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Subterranean",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Supererogatory",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Superferromagnetism",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Supersede/Supercede",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Susurration",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Symbiosis",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Syzygy",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Thalassophobia",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Therapeutic",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Utilitarianism",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Verbatim",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Vexatious",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Vulnerability",
-            "Difficulties": ["Hard"]
+            "Difficulty": "Hard"
         },
         {
             "Word": "Worcestershire",
-            "Difficulties": ["Hard", "Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Acetaminophen",
-            "Difficulties": ["Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Achromatophil",
-            "Difficulties": ["Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Achromatophilia",
-            "Difficulties": ["Extreme"]
-        },
-        {
-            "Word": "Adrenocorticotrophin",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Anthropomorphisation",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Arthroereisis",
-            "Difficulties": ["Extreme+"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Baccalaureate",
-            "Difficulties": ["Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Batrachophobia",
-            "Difficulties": ["Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Bogolanfini",
-            "Difficulties": ["Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Compartmentalization",
-            "Difficulties": ["Extreme"]
-        },
-        {
-            "Word": "Convolvulaceous",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Ethnomethodology",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Floccinaucinihilipilification",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Gastroenterologist",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Glyceraldehyde",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Honorificabilitudinity",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Hypoparathyroidism",
-            "Difficulties": ["Extreme+"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Jurisprudence",
-            "Difficulties": ["Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Neuropsychological",
-            "Difficulties": ["Extreme"]
-        },
-        {
-            "Word": "Oligonucleotide",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Otorhinolaryngological",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Parallelogrammatic",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Pneumoencephalography",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Polyphiloprogenitive",
-            "Difficulties": ["Extreme+"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Portmanteau",
-            "Difficulties": ["Extreme"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Prestidigitation",
-            "Difficulties": ["Extreme"]
-        },
-        {
-            "Word": "Pseudopseudohypoparathyroidism",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Psychoneuroendocrinological",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Psychoneuroimmunology",
-            "Difficulties": ["Extreme+"]
-        },
-        {
-            "Word": "Psychophysicotherapeutics",
-            "Difficulties": ["Extreme+"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Quasquicentennial",
-            "Difficulties": ["Extreme"]
-        },
-        {
-            "Word": "Radiometeorograph",
-            "Difficulties": ["Extreme+"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Subcompartmentalization",
-            "Difficulties": ["Extreme"]
-        },
-        {
-            "Word": "Supercalifragilisticexpialidocious",
-            "Difficulties": ["Extreme+"]
+            "Difficulty": "Extreme"
         },
         {
             "Word": "Verisimilitude",
-            "Difficulties": ["Extreme"]
+            "Difficulty": "Extreme"
+        },
+        {
+            "Word": "Autothaumaturgist",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Bourgeoisie",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Bourgeoisification",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Hippopotomonstrosesquippedaliophobia",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Institutionalization",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Quindecasyllabic",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Quoddamodotative",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Adrenocorticotrophin",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Anthropomorphisation",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Arthroereisis",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Convolvulaceous",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Ethnomethodology",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Floccinaucinihilipilification",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Gastroenterologist",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Glyceraldehyde",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Honorificabilitudinity",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Hypoparathyroidism",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Oligonucleotide",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Otorhinolaryngological",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Parallelogrammatic",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Pneumoencephalography",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Polyphiloprogenitive",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Pseudopseudohypoparathyroidism",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Psychoneuroendocrinological",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Psychoneuroimmunology",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Psychophysicotherapeutics",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Radiometeorograph",
+            "Difficulty": "Extreme+"
+        },
+        {
+            "Word": "Supercalifragilisticexpialidocious",
+            "Difficulty": "Extreme+"
         },
         {
             "Word": "Xylotypographic",
-            "Difficulties": ["Extreme+"]
+            "Difficulty": "Extreme+"
         }
     ]
 }
