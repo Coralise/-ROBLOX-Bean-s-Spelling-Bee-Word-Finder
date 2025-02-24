@@ -89,9 +89,9 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
         setWpm(undefined);
 
         setCanType(false);
-        await wait(1);
+        await wait(0.6);
         setWord(await getRandomWord(recaptchaToken, difficulty));
-        await wait(1);
+        await wait(0.7);
         setCanType(true);
         await wait(.1);
         setStartTime(Date.now());
