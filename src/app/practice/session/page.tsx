@@ -4,6 +4,7 @@ import { Geist_Mono } from "next/font/google";
 import { useRouter, useSearchParams } from "next/navigation";
 import { ReactNode, Suspense, useCallback, useEffect, useRef, useState } from "react";
 import { CorrectWordData, WordData } from "../../../../types/global";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 const geistMono = Geist_Mono({variable: "--font-geist-mono",subsets: ["latin"],});
 
@@ -13,17 +14,19 @@ const parseInput = (input: string): string => {
     return lettersOnly.charAt(0).toUpperCase() + lettersOnly.slice(1).toLowerCase();
 }
 
-const getRandomWord = async (difficulty: string | undefined): Promise<WordData> => {
+const getRandomWord = async (recaptchaToken: string, difficulty: string | undefined): Promise<WordData> => {
     const response = await fetch('/api/word/random', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ Difficulty: difficulty }),
+        body: JSON.stringify({ Difficulty: difficulty, recaptchaToken }),
     });
 
     const data = await response.json();
-    return data.word;
+    if (response.status != 200) {
+        return { Word: data.error, Difficulty: response.status + "" };
+    } else return data.word;
 }
 
 async function wait(seconds: number) {
@@ -31,6 +34,7 @@ async function wait(seconds: number) {
 }
 
 function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined }>) {
+    const { executeRecaptcha } = useGoogleReCaptcha();
     const router = useRouter();
     const inputRef = useRef<HTMLInputElement>(null);
     const [word, setWord] = useState<WordData | undefined>();
@@ -61,7 +65,7 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
             }
             await wait(2);
             if (correct) {
-                start();
+                start(executeRecaptcha);
             } else {
                 stop();
             }
@@ -75,7 +79,9 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
         router.push("/practice")
     }
 
-    const start = useCallback(async () => {
+    const start = useCallback(async (recaptcha: ((action?: string) => Promise<string>) | undefined) => {
+        if (!recaptcha) return;
+        const recaptchaToken = await recaptcha("submit");
         setWord(undefined);
         setStartTime(undefined);
         setIsCorrect(undefined);
@@ -84,7 +90,7 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
 
         setCanType(false);
         await wait(1);
-        setWord(await getRandomWord(difficulty));
+        setWord(await getRandomWord(recaptchaToken, difficulty));
         await wait(1);
         setCanType(true);
         await wait(.1);
@@ -93,8 +99,9 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
     }, [difficulty]);
 
     useEffect(() => {
-        start();
-    }, [start]);
+        if (!executeRecaptcha) return;
+        start(executeRecaptcha);
+    }, [start, executeRecaptcha]);
 
     const getStatusMessage = (): ReactNode => {
         if (isCorrect === undefined) return <span className={`text-2xl transition-all duration-500`}>Type...</span>;
