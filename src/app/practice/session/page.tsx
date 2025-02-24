@@ -106,7 +106,7 @@ export default function Game() {
     };
 
     return (
-        <Suspense>
+        <Suspense fallback={<div>Loading...</div>}>
             <div className={`${geistMono.className} flex flex-col items-center justify-center h-screen w-full select-none`}>
                 <span className={`text-2xl`}>{getStatusMessage()}</span>
 
