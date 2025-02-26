@@ -96,6 +96,7 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
     const start = useCallback(async (recaptcha: ((action?: string) => Promise<string>) | undefined) => {
         if (!recaptcha) return;
         const recaptchaToken = await recaptcha("submit");
+        const previousWord = word;
         setWord(undefined);
         setStartTime(undefined);
         setIsCorrect(undefined);
@@ -104,7 +105,7 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
 
         setCanType(false);
         await wait(0.6);
-        setWord(await getRandomWord(recaptchaToken, difficulty, word?.Word));
+        setWord(await getRandomWord(recaptchaToken, difficulty, previousWord?.Word));
         await wait(0.7);
         setCanType(true);
         await wait(.1);

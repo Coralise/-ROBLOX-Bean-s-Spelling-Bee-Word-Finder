@@ -3,6 +3,8 @@ import { RandomWordRequestBody } from "../../../../../types/global";
 import fetchData from "../../../../../data/fetcher";
 
 export async function POST(req: NextRequest) {
+
+    console.log("Called!");
     
     const body: RandomWordRequestBody = await req.json();
 
