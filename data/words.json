@@ -421,7 +421,7 @@
             "Difficulty": "Easy"
         },
         {
-            "Word": "Pie",
+            "Word": "Pie/Pi",
             "Difficulty": "Easy"
         },
         {
@@ -454,6 +454,10 @@
         },
         {
             "Word": "Probably",
+            "Difficulty": "Normal"
+        },
+        {
+            "Word": "Revelation",
             "Difficulty": "Normal"
         },
         {
@@ -685,6 +689,10 @@
             "Difficulty": "Normal"
         },
         {
+            "Word": "Diplomatic",
+            "Difficulty": "Normal"
+        },
+        {
             "Word": "Articulate",
             "Difficulty": "Normal"
         },
@@ -765,7 +773,7 @@
             "Difficulty": "Normal"
         },
         {
-            "Word": "Center",
+            "Word": "Center/Centre",
             "Difficulty": "Normal"
         },
         {
@@ -1017,6 +1025,10 @@
             "Difficulty": "Hard"
         },
         {
+            "Word": "Machiavellian",
+            "Difficulty": "Hard"
+        },
+        {
             "Word": "Mathematician",
             "Difficulty": "Normal"
         },
@@ -1118,6 +1130,10 @@
         },
         {
             "Word": "Pirouette",
+            "Difficulty": "Hard"
+        },
+        {
+            "Word": "Extraterrestrial",
             "Difficulty": "Hard"
         },
         {
@@ -1577,6 +1593,10 @@
             "Difficulty": "Hard"
         },
         {
+            "Word": "Homeopathy",
+            "Difficulty": "Hard"
+        },
+        {
             "Word": "Hypermetropia",
             "Difficulty": "Hard"
         },
@@ -1590,6 +1610,10 @@
         },
         {
             "Word": "Clandestine",
+            "Difficulty": "Hard"
+        },
+        {
+            "Word": "Triphosphate",
             "Difficulty": "Hard"
         },
         {
