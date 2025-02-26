@@ -1397,16 +1397,20 @@
             "Difficulty": "Hard"
         },
         {
+            "Word": "Defenestration",
+            "Difficulty": "Hard"
+        },
+        {
+            "Word": "Chauffeur",
+            "Difficulty": "Hard"
+        },
+        {
             "Word": "Anachronistic",
             "Difficulty": "Extreme"
         },
         {
             "Word": "Antediluvian",
             "Difficulty": "Extreme"
-        },
-        {
-            "Word": "Anthroponosis",
-            "Difficulty": "Hard"
         },
         {
             "Word": "Antidisestablishmentarianism",
@@ -1977,7 +1981,7 @@
             "Difficulty": "Impossible"
         },
         {
-            "Word": "Anthropomorphisation",
+            "Word": "Anthropomorphization/Anthropomorphisation",
             "Difficulty": "Impossible"
         },
         {
