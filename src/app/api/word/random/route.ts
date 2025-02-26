@@ -18,7 +18,7 @@ export async function POST(req: NextRequest) {
   
     const verification = await googleRes.json();
   
-    if (!verification.success || verification.score < 0.2) {
+    if (!verification.success || verification.score < 0.0) {
         return Response.json({ word: "reCAPTCHA verification failed" }, { status: 403 });
     }
 
