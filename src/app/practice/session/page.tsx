@@ -3,7 +3,7 @@
 import { Geist_Mono } from "next/font/google";
 import { useRouter, useSearchParams } from "next/navigation";
 import { ReactNode, Suspense, useCallback, useEffect, useRef, useState } from "react";
-import { CorrectWordData, WordData } from "../../../../types/global";
+import { CorrectWordData, RandomWordRequestBody, WordData } from "../../../../types/global";
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 const geistMono = Geist_Mono({variable: "--font-geist-mono",subsets: ["latin"],});
@@ -14,13 +14,17 @@ const parseInput = (input: string): string => {
     return lettersOnly.charAt(0).toUpperCase() + lettersOnly.slice(1).toLowerCase();
 }
 
-const getRandomWord = async (recaptchaToken: string, difficulty: string | undefined): Promise<WordData> => {
+const getRandomWord = async (recaptchaToken: string, difficulty: string | undefined, blacklistedWord?: string): Promise<WordData> => {
+    const requestBody: RandomWordRequestBody = {
+        Difficulty: difficulty, recaptchaToken,
+        BlacklistedWord: blacklistedWord
+    };
     const response = await fetch('/api/word/random', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ Difficulty: difficulty, recaptchaToken }),
+        body: JSON.stringify(requestBody),
     });
 
     const data = await response.json();
@@ -100,7 +104,7 @@ function GameComponent({ difficulty }: Readonly<{ difficulty: string | undefined
 
         setCanType(false);
         await wait(0.6);
-        setWord(await getRandomWord(recaptchaToken, difficulty));
+        setWord(await getRandomWord(recaptchaToken, difficulty, word?.Word));
         await wait(0.7);
         setCanType(true);
         await wait(.1);

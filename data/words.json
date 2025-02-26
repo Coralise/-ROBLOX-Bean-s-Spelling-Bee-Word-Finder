@@ -345,6 +345,10 @@
             "Difficulty": "Normal"
         },
         {
+            "Word": "Abhorrent",
+            "Difficulty": "Normal"
+        },
+        {
             "Word": "Lightning",
             "Difficulty": "Normal"
         },
@@ -377,7 +381,7 @@
             "Difficulty": "Easy"
         },
         {
-            "Word": "Neighboring",
+            "Word": "Neighboring/Neighbouring",
             "Difficulty": "Easy"
         },
         {
@@ -722,7 +726,7 @@
         },
         {
             "Word": "Brusque",
-            "Difficulty": "Hard"
+            "Difficulty": "Normal"
         },
         {
             "Word": "Catalogue",
@@ -774,6 +778,10 @@
         },
         {
             "Word": "Center/Centre",
+            "Difficulty": "Normal"
+        },
+        {
+            "Word": "Queen",
             "Difficulty": "Normal"
         },
         {

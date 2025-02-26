@@ -1,6 +1,7 @@
 export interface RandomWordRequestBody {
     Difficulty?: string,
-    recaptchaToken: string
+    recaptchaToken: string,
+    BlacklistedWord?: string
 }
 
 export interface WordData {

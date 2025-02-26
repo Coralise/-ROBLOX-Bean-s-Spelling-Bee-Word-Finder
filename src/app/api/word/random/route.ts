@@ -8,6 +8,7 @@ export async function POST(req: NextRequest) {
 
     const difficulty = body.Difficulty;
     const recaptchaToken = body.recaptchaToken;
+    const blacklistedWord = body.BlacklistedWord;
 
     // Verify reCAPTCHA with Google
     const googleRes = await fetch(`https://www.google.com/recaptcha/api/siteverify`, {
@@ -25,6 +26,9 @@ export async function POST(req: NextRequest) {
     const wordDatas = await fetchData(difficulty);
     if (!wordDatas) return new Response(JSON.stringify({ word: "No words found for the given difficulty" }), { status: 404 });
 
-    const randomWord = wordDatas[Math.floor(Math.random() * wordDatas.length)];
+    let randomWord;
+    do {
+        randomWord = wordDatas[Math.floor(Math.random() * wordDatas.length)];
+    } while (blacklistedWord && randomWord.Word == blacklistedWord);
     return Response.json({ word: randomWord }, { status: 200 });
 }
