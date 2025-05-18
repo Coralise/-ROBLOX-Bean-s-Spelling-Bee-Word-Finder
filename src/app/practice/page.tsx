@@ -3,10 +3,12 @@
 import { useEffect, useState } from "react";
 import { CorrectWordData } from "../../../types/global";
 import { Geist_Mono } from "next/font/google";
+import { useRouter } from "next/navigation";
 
 const geistMono = Geist_Mono({variable: "--font-geist-mono",subsets: ["latin"],});
 
 export default function Practice() {
+    const router = useRouter();
     const [difficulty, setDifficulty] = useState<string | undefined>();
     const [gameData, setGameData] = useState<{correctWords: CorrectWordData[], difficulty: string}>();
 
@@ -53,7 +55,22 @@ export default function Practice() {
                         </div>
                     </div>
                 </div>
-                <button className="animated-button mt-8" onClick={() => window.location.href = `/practice/session?difficulty=${difficulty ?? 'random'}`}>
+                <button className="animated-button mt-8"
+                    onClick={e => {
+                        e.preventDefault();
+                        const audio = new Audio('/sounds/confirmation.ogg');
+                        audio.volume = 0.5;
+                        audio.play();
+                        audio.addEventListener('ended', () => {
+                            router.push(`/practice/session?difficulty=${difficulty ?? 'random'}`);
+                        });
+                    }}
+                    onMouseEnter={() => {
+                        const audio = new Audio('/sounds/hover.ogg');
+                        audio.volume = 0.5;
+                        audio.play();
+                    }}
+                >
                     <svg xmlns="http://www.w3.org/2000/svg" className="arr-2" viewBox="0 0 24 24">
                         <path
                             d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
