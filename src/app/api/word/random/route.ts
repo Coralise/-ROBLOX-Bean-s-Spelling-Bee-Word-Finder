@@ -9,7 +9,7 @@ export async function POST(req: NextRequest) {
     const body: RandomWordRequestBody = await req.json();
 
     const difficulty = body.Difficulty;
-    const recaptchaToken = body.recaptchaToken;
+    // const recaptchaToken = body.recaptchaToken;
     const blacklistedWord = body.BlacklistedWord;
 
     // Verify reCAPTCHA with Google
